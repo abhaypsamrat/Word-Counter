@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgb(34, 34, 33);
+  height: 65px;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer h6 {
+  color: aliceblue;
+}
+
+.footer a {
+  text-decoration: none;
+}

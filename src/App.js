@@ -9,8 +9,6 @@ import {
   Route,
 } from "react-router-dom";
 
-
-
 function App() {
   return (
     <>
@@ -26,9 +24,10 @@ function App() {
               <TextForm heading="Enter the text to analyze" />
             </Route>
           </Switch>
-
         </div>
-
+        <div className="footer">
+        <h6>Made With ❤ By <a href="https://abhaypsamrat.netlify.app/" target="blank">Samrat</a></h6>
+      </div>
       </Router>
     </>
   )
