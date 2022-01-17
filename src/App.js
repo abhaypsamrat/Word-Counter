@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import TextForm from './components/TextForm'
@@ -25,9 +24,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-        <div className="footer">
-        <h6>Made With ❤ By <a href="https://abhaypsamrat.netlify.app/" target="blank">Samrat</a></h6>
-      </div>
+        
       </Router>
     </>
   )
